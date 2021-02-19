@@ -36,7 +36,7 @@ height = im.size[1]
 left = width/4.15
 top = height/4
 right = width/1.32
-bottom = height/1.7
+bottom = height/1.45
   
 im1 = im.crop((left, top, right, bottom))
 im1.save("score-inv-cropped.png")
